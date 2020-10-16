@@ -22,7 +22,7 @@ npm run dev
 1.[Homebrew国内如何自动安装（国内地址](https://zhuanlan.zhihu.com/p/111014448)  
 
 ### MongDB Database:
-2.Mongoo Account : Google account 
+2.Mongoo Account bind with Google account.
 
 [MongoAtlas](https://cloud.mongodb.com/v2/5f8737ed76b45308cd24df78#security/database/roles)  
 3.You need to stop the Mongodb, if you are using the community version of the mongodb, you couold stop it in the terminal or visula studio terminal  
