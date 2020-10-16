@@ -8,7 +8,7 @@ npm install
 
 1,connct the database:  
 ```
-export MONGO_URI='mongodb+srv://88888888:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
+export MONGO_URI='mongodb+srv://username:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
 
 echo $MONGO_URI
 ```
@@ -19,7 +19,7 @@ npm run dev
 
 ## Prject Bug  handling:
 
-1.[Homebrew国内如何自动安装（国内地址](https://zhuanlan.zhihu.com/p/111014448)  
+1.[Homebrew国内如何自动安装（国内地址)](https://zhuanlan.zhihu.com/p/111014448)  
 
 ### MongDB Database:
 2.Mongoo Account bind with Google account.
@@ -32,7 +32,7 @@ npm run dev
 5.Connect to your application: 
 1.The process to run your Mongodb:  
 ```
-export MONGO_URI='mongodb+srv://88888888:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
+export MONGO_URI='mongodb+srv://username:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
 
 echo $MONGO_URI
 
@@ -41,10 +41,10 @@ node server.js
 
 2. Explain the content
 ```
-mongodb+srv://88888888:<password>@cluster0.vbecz.mongodb.net/<dbname>?retryWrites=true&w=majority
+mongodb+srv://username:<password>@cluster0.vbecz.mongodb.net/<dbname>?retryWrites=true&w=majority
 ```
 mongodb+srv://username:<password>@clusterurl<dbname>?retryWrites=true&w=majority
-username: 88888888aDatabase Access;
+username: 88888888 aDatabase Access;
 password: You could see it from the Database Access
 url: connect the clauster and connection method and choose the connect to your application, you will find out.
 <dbname>:You need to give a one
@@ -72,7 +72,7 @@ http://localhost:3000/api/bucketListItems/5f881bbb743402f1e6ddc34b
 ### 9. To run the project, you need to connct the database first,. then npm run dev the project. The process will be like below:
 1,connct the database:  
 ```
-export MONGO_URI='mongodb+srv://88888888:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
+export MONGO_URI='mongodb+srv://username:XXXXXX@cluster0.vbecz.mongodb.net/test?retryWrites=true&w=majority'
 
 echo $MONGO_URI
 ```
