@@ -4,7 +4,7 @@ Demo link: [mevn-bucket-list-app1](https://mevn-bucket-list-app1.herokuapp.com/)
 
 To run the project in the local:
 
-NPM install 
+npm install 
 
 1,connct the database:  
 ```
